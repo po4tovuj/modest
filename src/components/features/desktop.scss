@@ -1,0 +1,32 @@
+& {
+    font: 400 px(16) 'Quattrocento Sans', sans-serif;
+    color: #dcdfe1;
+    background-color: #3a454d;
+    padding: px(91) px(0) px(121) px(0);
+    &_items {
+        width: 32%;
+        img {
+            width: 100%;
+        }
+    }
+    &_container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+&_wrapper {
+    max-width: px(1140);
+    margin: auto;
+}
+&_caption {
+    font: 700 px(36) 'Quattrocento Sans', sans-serif;
+    color: #fff;
+    margin-bottom: px(63);
+    border-left: px(10) solid #4e5a62;
+}
+&_name {
+    font: 700 px(18) 'Quattrocento Sans', sans-serif;
+    margin: px(54) px(0) px(29) px(0);
+    text-transform: uppercase;
+}
+}

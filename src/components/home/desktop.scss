@@ -1,0 +1,40 @@
+& {
+    background: url('../images/pic.png') 0 0/100% no-repeat;
+    font: 400 px(16) 'Open Sans', sans-serif;
+
+    &_container {
+        margin: auto;
+        max-width: px(1140);
+        padding: px(225) px(0) px(250);
+    }
+    &_btn {
+        display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            border: px(2) solid #fff;
+            border-radius: px(4);
+            font-weight: 700;
+            padding: px(17) px(30) px(17) px(22);
+    }
+
+    &_btn:hover {
+        background-color: #23b7a4;
+        border-color: #23b7a4;
+    }
+
+    &_caption {
+        font: 700 px(36) 'Quattrocento Sans', sans-serif;
+        color: #fff;
+        margin-bottom: px(31);
+    }
+
+    &_content {
+        line-height: px(26);
+        margin-bottom: px(58);
+        color: #ccd0d7;
+    }
+
+    &_wellcome {
+        max-width: 56%;
+    }
+}

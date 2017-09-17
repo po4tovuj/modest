@@ -1,0 +1,110 @@
+& {
+    @mixin about-link {
+        padding: px(20);
+        margin-right: px(4);
+        display: block;
+        height: px(60);
+        width: px(60);
+    }
+
+    &_wrapper {
+        max-width: px(1140);
+        margin: auto;
+        padding-top: px(86);
+        padding-bottom: px(100);
+        font: 400 px(16) 'Open Sans', sans-serif;
+        line-height: px(26);
+    }
+
+    &_content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &_caption {
+        font: 700 px(36) 'Quattrocento Sans', sans-serif;
+        margin-bottom: px(63);
+        border-left: px(10) solid #e1e6ea;
+    }
+
+    &_mission {
+        width: 56%;
+
+        &-text {
+            color: #8d8f92;
+            margin-bottom: px(22);
+
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+
+    &_social {
+        display: flex;
+        align-items: center;
+        margin-top: px(54);
+
+        &-link {
+            &-google {
+                @include about-link;
+                background: url('../images/g.svg') center center/50% no-repeat #c8cdd0;
+            }
+
+            &-facebook {
+                @include about-link;
+                background: url('../images/facebook.svg') center center/50% no-repeat #c8cdd0;
+            }
+
+            &-twitter {
+                @include about-link;
+                background: url('../images/twitter.svg') center center/50% no-repeat #c8cdd0;
+            }
+
+            &-dribble {
+                @include about-link;
+                background: url('../images/dribble.svg') center center/50% no-repeat #c8cdd0;
+            }
+
+            &-behance {
+                @include about-link;
+                background: url('../images/behance.svg') center center/50% no-repeat #c8cdd0;
+                margin: 0;
+            }
+        }
+
+
+    }
+
+    &_goals {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 35%;
+        padding-bottom: px(37);
+
+        &-caption {
+            font: 700 px(18) 'Quattrocento Sans', sans-serif;
+            color: #292f36;
+            margin-bottom: px(8);
+        }
+
+        &-content {
+            color: #8d8f92;
+            line-height: px(26);
+            position: relative;
+        }
+
+        &-number {
+            color: #fff;
+            font-size: px(20);
+            background-color: #23b7a4;
+            max-width: px(50);
+            max-height: px(50);
+            padding: px(14);
+            position: absolute;
+            top: 0;
+            left: px(-80);
+        }
+    }
+}

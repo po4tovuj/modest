@@ -1,0 +1,28 @@
+& {
+    background-color: #3a454d;
+    border-top: px(2) solid #dcdfe1;
+    padding: px(42) px(0) px(38);
+    font-size: px(14);
+    color: #fff;
+
+    &_wrapper {
+        max-width: px(1140);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_social {
+        display: flex;
+        width: 20%;
+
+        &-link {
+            display: inline-block;
+
+            img {
+                width: 40%;
+            }
+        }
+    }
+}
